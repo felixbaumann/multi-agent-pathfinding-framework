@@ -6,7 +6,11 @@ It is specifically desgined to evaluate the usefulness of the graph direction co
 and solving it on the directed graph where the branching factor of a search may be smaller. Hence, the framework allows to compare the performance
 of a planner when solving a given problem on an undirected graph with the performance of the same planner when solving the same problem on a directed graph.
 
+
+
 # PLANNERS
+
+The framework supports the following planners.
 
 ## Cooperative A*
 Reservation based approach by Silver [1].
@@ -27,7 +31,10 @@ Variant of the Runtime Replanner that can handle dynamically changing edge direc
 Decentralized approach with waiting instead of replanning.
 
 
+
 # PARAMETERS
+
+The framework requires all of the following parameters in the given order.
 
 ## 1. Algorithm
 "CA_STAR", "TokenPassing", "EnhancedHierarchicalPlanner", "RuntimeReplanner", "AlternatingRuntimeReplanner" or "TrafficSimulator".
@@ -53,6 +60,7 @@ Once it succeeds, the remaining trials are not executed anymore.
 ## 7. Direction change rate
 Directed edges can change their direction periodically. This parameter defines after how many time steps these changes occur.
 Choose 0 for a static graph without any edge direction changes.
+
 
 
 # INPUT FILE SYNTAX
