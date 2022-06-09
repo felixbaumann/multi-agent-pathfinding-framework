@@ -8,7 +8,7 @@ of a planner when solving a given problem on an undirected graph with the perfor
 
 
 
-# PLANNERS
+# Planners
 
 The framework supports the following planners.
 
@@ -32,7 +32,7 @@ Decentralized approach with waiting instead of replanning.
 
 
 
-# PARAMETERS
+# Parameters
 
 The framework requires all of the following parameters in the given order.
 
@@ -63,7 +63,7 @@ Choose 0 for a static graph without any edge direction changes.
 
 
 
-# INPUT FILE SYNTAX
+# Input File Syntax
 
 Input files contain a header defining whether it's a regular multi-agent-pathfinding (YamlClassicScenario) or multi-agent-pickup-and-delivery problem (YamlDynamicScenario).
 
@@ -92,7 +92,7 @@ The representation of the map is identical with the exception that it may also h
 
 
 
-# LITERATURE
+# Literature
 
 [1] D. Silver, “Cooperative pathfinding,” in Proceedings of the First AAAI Conference
 on Artificial Intelligence and Interactive Digital Entertainment, pp. 117 –
