@@ -19,7 +19,7 @@ public class Main {
 		
 		FileWriter fileWriter = new FileWriter();
 		
-		boolean writePlansToFile = false;
+		boolean writePlansToFile = true;
 		
 		/* If at least one file will be processed, create an evaluation file
 		 * that stores runtime, makespan and flowtime for all processed

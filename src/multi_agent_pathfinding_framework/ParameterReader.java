@@ -31,7 +31,7 @@ public class ParameterReader {
 					"Incorrect number of arguments.\n" +
 					"    * 0: algorithm "
 					+ "(CA_STAR | TokenPassing |"
-					+ " HierarchicalPlanner | EnhancedHierarchicalPlanner |"
+					+ " TrafficSimulator | EnhancedHierarchicalPlanner |"
 					+ " RuntimeReplanner | AlternatingRuntimeReplanner)\n" + 
 					"    * 1: input path \n" + 
 					"    * 2: output path \n" +  
